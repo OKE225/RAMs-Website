@@ -1,0 +1,58 @@
+.navbar-brand {
+  font-size: 1.563rem;
+  cursor: default;
+}
+
+.nav-link,
+span.navbar-text {
+  font-size: 1.25rem;
+}
+
+.navbar-margin-right {
+  cursor: default;
+}
+
+div.input-group input {
+  width: auto;
+}
+
+/* div.input-group {
+  min-width: 400px;
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  div.input-group {
+    width: 325px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar-margin-right {
+    margin-right: 5%;
+  }
+
+  div.input-group {
+    width: 450px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .navbar-margin-right {
+    margin-right: 7.5%;
+  }
+
+  div.input-group {
+    width: 650px;
+  }
+}
