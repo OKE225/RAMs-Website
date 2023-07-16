@@ -3,6 +3,10 @@
   cursor: default;
 }
 
+.nav-link {
+  padding: 4px 0;
+}
+
 .nav-link,
 span.navbar-text {
   font-size: 1.25rem;
@@ -16,9 +20,10 @@ div.input-group input {
   width: auto;
 }
 
-/* div.input-group {
-  min-width: 400px;
-} */
+.white-text-with-gray-shadow {
+  text-shadow: 0 0 1em gray, 0 0 0.5em gray, 0 0 0.25em gray;
+  color: white;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
