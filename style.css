@@ -20,13 +20,85 @@ div.input-group input {
   width: auto;
 }
 
+span.badge {
+  font-size: 0.5rem;
+}
+
 .white-text-with-gray-shadow {
   text-shadow: 0 0 1em gray, 0 0 0.5em gray, 0 0 0.25em gray;
   color: white;
 }
 
+.box-product-margin-top {
+  margin-top: 75px;
+}
+
+a.card {
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+}
+
+a.card:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 0 10px;
+}
+
+.left-section {
+  width: 45%;
+}
+
+.right-section {
+  width: 55%;
+}
+
+/* h6.card-title {
+  font-size: 13px;
+} */
+
+.product-description p {
+  margin: 0;
+  font-size: 14px;
+  /* font-size: 10px; */
+}
+
+/* button.btn {
+  font-size: 10px;
+} */
+
+.active-heart-btn,
+.active-heart-btn:hover {
+  border: 1px solid #dc3545;
+  background: #dc3545;
+  color: #fff;
+}
+
+.click-cart-shop-btn,
+.click-cart-shop-btn:hover {
+  background: #0a58ca;
+  color: #fff;
+  border: 1px solid #0a58ca;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .box-product-margin-top {
+    margin-top: 75px;
+  }
+
+  /* h6.card-title {
+    font-size: 16px;
+  }
+
+  .product-description p {
+    font-size: 14px;
+  }
+
+  button.btn {
+    font-size: 14px;
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -37,6 +109,10 @@ div.input-group input {
 @media (min-width: 992px) {
   div.input-group {
     width: 325px;
+  }
+
+  .box-product-margin-top {
+    margin-top: 100px;
   }
 }
 
