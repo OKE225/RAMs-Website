@@ -27,6 +27,6 @@ cartBtn.forEach(function (cartBtn) {
     setTimeout(() => {
       cartBtn.classList.add("btn-outline-primary");
       cartBtn.classList.remove("click-cart-shop-btn");
-    }, 500);
+    }, 250);
   });
 });
