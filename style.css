@@ -20,10 +20,6 @@ span.navbar-text {
   cursor: default;
 }
 
-div.input-group input {
-  width: auto;
-}
-
 span.badge {
   font-size: 0.5rem;
 }
@@ -131,6 +127,14 @@ table.table th {
   width: 75%;
 }
 
+.menu-height {
+  max-height: 200px;
+}
+
+label.form-check-label {
+  font-size: 18px;
+}
+
 footer {
   width: 95%;
   margin: 0 auto;
@@ -173,10 +177,6 @@ footer {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-  div.input-group {
-    width: 325px;
-  }
-
   .box-product-margin-top {
     margin-top: 100px;
   }
@@ -193,6 +193,10 @@ footer {
     width: 40%;
   }
 
+  .menu-height {
+    height: auto;
+  }
+
   footer {
     width: 100%;
   }
@@ -202,10 +206,6 @@ footer {
 @media (min-width: 1200px) {
   .navbar-margin-right {
     margin-right: 5%;
-  }
-
-  div.input-group {
-    width: 450px;
   }
 
   .product-title-header {
@@ -237,9 +237,5 @@ footer {
 @media (min-width: 1400px) {
   .navbar-margin-right {
     margin-right: 7.5%;
-  }
-
-  div.input-group {
-    width: 650px;
   }
 }
