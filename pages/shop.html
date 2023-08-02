@@ -40,25 +40,27 @@
           </ul>
           <div class="navbar-margin-right d-lg-flex ms-auto">
             <span
-              class="navbar-text text-black-50 d-inline-block d-lg-flex align-items-center mx-3"
+              class="navbar-text text-dark-emphasis d-inline-block d-lg-flex align-items-center mx-3"
               >Ulubione
               <i
-                class="fa-solid fa-heart position-relative text-black-50 mx-1"
+                class="fa-solid fa-heart position-relative text-dark-emphasis mx-1"
                 style="color: #000000"
                 ><span
                   class="position-absolute badge top-0 start-100 translate-middle bg-danger rounded-pill"
-                  >9 +</span
+                  id="num-add-heart"
+                  >0</span
                 ></i
               ></span
             >
             <span
-              class="navbar-text text-black-50 d-inline-block d-lg-flex align-items-center mx-3"
+              class="navbar-text text-dark-emphasis d-inline-block d-lg-flex align-items-center mx-3"
               >Koszyk
               <i
-                class="fa-solid fa-cart-shopping position-relative text-black-50 mx-1"
+                class="fa-solid fa-cart-shopping position-relative text-dark-emphasis mx-1"
                 ><span
                   class="position-absolute badge top-0 start-100 translate-middle bg-danger rounded-pill"
-                  >9 +</span
+                  id="num-add-cart"
+                  >0</span
                 ></i
               >
             </span>
@@ -88,165 +90,69 @@
             <div
               class="w-100 d-flex justify-content-evenly d-lg-block menu-height mx-auto">
               <div
-                class="menu-memory-section ms-0 ms-lg-4 mt-0 mt-lg-5 mb-4 mb-lg-0">
-                <h4>Memory:</h4>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="memory1" />
-                  <label class="form-check-label" for="memory1"
-                    >Lorem, ipsum. 1</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="memory2" />
-                  <label class="form-check-label" for="memory2"
-                    >Lorem, ipsum. 2</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="memory3" />
-                  <label class="form-check-label" for="memory3"
-                    >Lorem, ipsum. 3</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="memory4" />
-                  <label class="form-check-label" for="memory4"
-                    >Lorem, ipsum. 4</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="memory5" />
-                  <label class="form-check-label" for="memory5"
-                    >Lorem, ipsum. 5</label
-                  >
+                class="menu-type-section ms-0 mt-0 mt-lg-5 mb-4 mb-lg-0 px-3">
+                <h4>Memory</h4>
+                <div class="btn-menu-section">
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem1
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem2
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem3
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem4
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem5
+                  </button>
                 </div>
               </div>
               <div
-                class="menu-type-section ms-0 ms-lg-3 mt-0 mt-lg-5 mb-4 mb-lg-0">
-                <h4>Type:</h4>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="type1" />
-                  <label class="form-check-label" for="type1"
-                    >Lorem, ipsum. 1</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="type2" />
-                  <label class="form-check-label" for="type2"
-                    >Lorem, ipsum. 2</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="type3" />
-                  <label class="form-check-label" for="type3"
-                    >Lorem, ipsum. 3</label
-                  >
+                class="menu-type-section ms-0 mt-0 mt-lg-5 mb-4 mb-lg-0 px-3">
+                <h4>Type</h4>
+                <div class="btn-menu-section">
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem6
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem7
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem8
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem8.5
+                  </button>
                 </div>
               </div>
               <div
-                class="menu-frequency-section ms-0 ms-lg-3 mt-0 mt-lg-5 mb-4 mb-lg-0">
-                <h4>Frequency:</h4>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency1" />
-                  <label class="form-check-label" for="frequency1"
-                    >Lorem, ipsum. 1</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency2" />
-                  <label class="form-check-label" for="frequency2"
-                    >Lorem, ipsum. 2</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency3" />
-                  <label class="form-check-label" for="frequency3"
-                    >Lorem, ipsum. 3</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency4" />
-                  <label class="form-check-label" for="frequency4"
-                    >Lorem, ipsum. 4</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency5" />
-                  <label class="form-check-label" for="frequency5"
-                    >Lorem, ipsum. 5</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency6" />
-                  <label class="form-check-label" for="frequency6"
-                    >Lorem, ipsum. 6</label
-                  >
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="frequency7" />
-                  <label class="form-check-label" for="frequency7"
-                    >Lorem, ipsum. 7</label
-                  >
+                class="menu-type-section ms-0 mt-0 mt-lg-5 mb-4 mb-lg-0 px-3">
+                <h4>Frequency</h4>
+                <div class="btn-menu-section">
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem9
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem10
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem11
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem12
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem13
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem14
+                  </button>
+                  <button class="btn btn-outline-primary menu-filter-btn m-1">
+                    lorem15
+                  </button>
                 </div>
               </div>
             </div>
@@ -261,7 +167,6 @@
                   src="../images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
                   alt=""
                   class="card-img-top" />
-
                 <div class="card-body">
                   <h6 class="card-title">
                     Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
@@ -291,7 +196,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -303,9 +208,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -341,7 +245,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -353,9 +257,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -391,7 +294,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -403,9 +306,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -441,7 +343,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -453,9 +355,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -491,7 +392,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -503,9 +404,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -541,7 +441,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -553,9 +453,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -591,7 +490,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -603,9 +502,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -641,7 +539,7 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>
@@ -653,9 +551,8 @@
                       <i class="fa-solid fa-heart mx-1"></i>
                     </button>
                   </div>
-                </div>
-              </a>
-              <a
+                </div> </a
+              ><a
                 href="products/template-product.html"
                 class="card rounded text-black text-decoration-none p-0">
                 <img
@@ -691,7 +588,56 @@
                       SPRAWDŹ
                     </button>
                     <button
-                      class="btn btn-outline-primary btn-sm button-cart-shopping"
+                      class="btn btn-primary btn-sm button-cart-shopping"
+                      role="button"
+                      type="button">
+                      <i class="fa-solid fa-cart-shopping mx-1"></i>
+                    </button>
+                    <button
+                      class="btn btn-outline-danger btn-sm button-heart"
+                      role="button"
+                      type="button">
+                      <i class="fa-solid fa-heart mx-1"></i>
+                    </button>
+                  </div>
+                </div> </a
+              ><a
+                href="products/template-product.html"
+                class="card rounded text-black text-decoration-none p-0">
+                <img
+                  src="../images/Kingston FURY 64GB (2x32GB) 6000MHz CL36 Beast RGB EXPO.png"
+                  alt=""
+                  class="card-img-top" />
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Kingston FURY 64GB (2x32GB) 2666MHz CL15 Renegade Black
+                  </h6>
+                  <div class="product-description d-flex my-4">
+                    <div class="left-section">
+                      <p>Memory:</p>
+                      <p>Type:</p>
+                      <p>Frequency:</p>
+                      <p>Latency:</p>
+                    </div>
+                    <div class="right-section">
+                      <p>
+                        64 GB
+                        <span class="d-none d-sm-inline-block">(2x32 GB)</span>
+                      </p>
+                      <p>DDR4</p>
+                      <p>2666 MHz</p>
+                      <p>CL 15</p>
+                    </div>
+                  </div>
+                  <div class="btn-group d-flex mb-3">
+                    <button
+                      class="btn btn-warning btn-sm w-100 text-black"
+                      role="button"
+                      type="button">
+                      SPRAWDŹ
+                    </button>
+                    <button
+                      class="btn btn-primary btn-sm button-cart-shopping"
                       role="button"
                       type="button">
                       <i class="fa-solid fa-cart-shopping mx-1"></i>

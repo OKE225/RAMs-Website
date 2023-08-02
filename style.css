@@ -21,7 +21,7 @@ span.navbar-text {
 }
 
 span.badge {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 
 .white-text-with-gray-shadow {
@@ -57,13 +57,6 @@ a.card:hover {
 .product-description p {
   margin: 0;
   font-size: 14px;
-}
-
-.active-heart-btn,
-.active-heart-btn:hover {
-  border: 1px solid #dc3545;
-  background: #dc3545;
-  color: #fff;
 }
 
 .click-cart-shop-btn,
@@ -128,7 +121,7 @@ table.table th {
 }
 
 .menu-height {
-  max-height: 200px;
+  max-height: 150px;
 }
 
 label.form-check-label {
