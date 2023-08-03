@@ -26,11 +26,9 @@ heartBtn.forEach(function (heartBtn) {
 cartBtn.forEach(function (cartBtn) {
   cartBtn.addEventListener("click", function (event) {
     event.preventDefault();
-    // cartBtn.classList.add("click-cart-shop-btn");
     cartBtn.classList.add("active");
     ++cartAddNum.innerHTML;
     setTimeout(() => {
-      // cartBtn.classList.remove("click-cart-shop-btn");
       cartBtn.classList.remove("active");
     }, 250);
   });
@@ -38,7 +36,7 @@ cartBtn.forEach(function (cartBtn) {
 
 filterBtn.forEach(function (filterBtn) {
   var switchButton = 1;
-  filterBtn.addEventListener("click", function (event) {
+  filterBtn.addEventListener("click", function () {
     if (switchButton === 1) {
       filterBtn.classList.add("active");
       switchButton = 2;
