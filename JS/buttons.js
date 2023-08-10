@@ -1,10 +1,7 @@
+// Buttons
+
 const heartBtn = document.querySelectorAll(".button-heart");
 const heartFavNum = document.getElementById("num-add-heart");
-
-const cartBtn = document.querySelectorAll(".button-cart-shopping");
-const cartAddNum = document.getElementById("num-add-cart");
-
-const filterBtn = document.querySelectorAll(".menu-filter-btn");
 
 heartBtn.forEach(function (heartBtn) {
   var switchButton = 1;
@@ -23,6 +20,9 @@ heartBtn.forEach(function (heartBtn) {
   });
 });
 
+const cartBtn = document.querySelectorAll(".button-cart-shopping");
+const cartAddNum = document.getElementById("num-add-cart");
+
 cartBtn.forEach(function (cartBtn) {
   cartBtn.addEventListener("click", function (event) {
     event.preventDefault();
@@ -31,18 +31,5 @@ cartBtn.forEach(function (cartBtn) {
     setTimeout(() => {
       cartBtn.classList.remove("active");
     }, 250);
-  });
-});
-
-filterBtn.forEach(function (filterBtn) {
-  var switchButton = 1;
-  filterBtn.addEventListener("click", function () {
-    if (switchButton === 1) {
-      filterBtn.classList.add("active");
-      switchButton = 2;
-    } else if (switchButton === 2) {
-      filterBtn.classList.remove("active");
-      switchButton = 1;
-    }
   });
 });
